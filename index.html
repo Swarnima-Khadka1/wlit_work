@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Web Lab</p>
+        <h1>Calculator</h1>
+    
+      </section>
+
+      <div class="body">
+        <div class="screen" aria-live="polite">
+          <div class="history"></div>
+          <div class="now"></div>
+        </div>
+
+        <div class="main">
+          <div class="row">
+            <span><button class="utility" id="openparanthesis">(</button></span>
+            <span><button class="utility" id="rightparanthesis">)</button></span>
+            <span><button class="utility" id="percent">%</button></span>
+            <span><button class="action" id="ac">AC</button></span>
+          </div>
+          <div class="row">
+            <span><button id="7">7</button></span>
+            <span><button id="8">8</button></span>
+            <span><button id="9">9</button></span>
+            <span><button class="operator" id="div">/</button></span>
+          </div>
+          <div class="row">
+            <span><button id="4">4</button></span>
+            <span><button id="5">5</button></span>
+            <span><button id="6">6</button></span>
+            <span><button class="operator" id="mul">*</button></span>
+          </div>
+          <div class="row">
+            <span><button id="1">1</button></span>
+            <span><button id="2">2</button></span>
+            <span><button id="3">3</button></span>
+            <span><button class="operator" id="sub">-</button></span>
+          </div>
+          <div class="row">
+            <span><button id="0">0</button></span>
+            <span><button class="utility" id="dec">.</button></span>
+            <span><button class="equals" id="equals">=</button></span>
+            <span><button class="operator" id="add">+</button></span>
+          </div>
+          <div class="row bottom-row">
+            <span><button class="action" id="del">DEL</button></span>
+            <span><button class="action wide" id="clearhistory">Clear History</button></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
